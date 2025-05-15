@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checkout'
-                git branch: 'master', url: 'https://github.com/bitcse6c/1BI22CS152.git'
+                git branch: 'master', url: 'https://github.com/bitcse6c/1BI22CS182-tomcat.git'
             }
         }
 
